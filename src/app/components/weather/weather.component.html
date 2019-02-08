@@ -1,0 +1,5 @@
+<ng-container *ngIf="weatherDATA">
+  <p>{{weatherDATA.city.name}}</p>
+  <p>Current temperature: {{weatherDATA.list[0].main.temp}} °C</p>
+  <p>Current day: {{weatherDATA.list[0].dt_txt}}</p>
+</ng-container>
